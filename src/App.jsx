@@ -1,14 +1,12 @@
 import { Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
-import Home from './pages/Home'
-import NotFound from './pages/NotFound'
+import HomePage from './pages/HomePage'
 
 function App() {
   return (
-    <div className="min-h-screen bg-surface-50">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="*" element={<NotFound />} />
+    <div>
+<Routes>
+        <Route path="/" element={<HomePage />} />
       </Routes>
       <ToastContainer
         position="top-right"
