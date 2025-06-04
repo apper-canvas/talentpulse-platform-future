@@ -1,0 +1,497 @@
+[
+  {
+    "employeeId": "EMP001",
+    "personalInfo": {
+      "name": "Rajesh Kumar",
+      "email": "rajesh.kumar@company.com",
+      "phone": "+91-9876543210",
+      "address": "123 MG Road, Bangalore, Karnataka 560001",
+      "dateOfBirth": "1990-05-15",
+      "aadharNumber": "1234-5678-9012",
+      "panNumber": "ABCDE1234F"
+    },
+    "designation": "Senior Software Engineer",
+    "department": "Technology",
+    "joiningDate": "2022-01-15",
+    "salary": 85000,
+    "bankDetails": {
+      "accountNumber": "1234567890",
+      "ifscCode": "HDFC0001234",
+      "bankName": "HDFC Bank"
+    },
+    "documents": {
+      "resume": "resume_rajesh.pdf",
+      "offerLetter": "offer_rajesh.pdf",
+      "idProof": "aadhar_rajesh.pdf"
+    },
+    "leaveBalance": {
+      "casual": 8,
+      "sick": 12,
+      "earned": 18
+    },
+    "reportingTo": "EMP005",
+    "teamMembers": ["EMP010", "EMP011"]
+  },
+  {
+    "employeeId": "EMP002",
+    "personalInfo": {
+      "name": "Priya Sharma",
+      "email": "priya.sharma@company.com",
+      "phone": "+91-9876543211",
+      "address": "456 Sector 14, Gurgaon, Haryana 122001",
+      "dateOfBirth": "1992-08-22",
+      "aadharNumber": "2345-6789-0123",
+      "panNumber": "BCDEF2345G"
+    },
+    "designation": "Product Manager",
+    "department": "Product",
+    "joiningDate": "2021-03-10",
+    "salary": 95000,
+    "bankDetails": {
+      "accountNumber": "2345678901",
+      "ifscCode": "ICIC0002345",
+      "bankName": "ICICI Bank"
+    },
+    "documents": {
+      "resume": "resume_priya.pdf",
+      "offerLetter": "offer_priya.pdf",
+      "idProof": "aadhar_priya.pdf"
+    },
+    "leaveBalance": {
+      "casual": 10,
+      "sick": 8,
+      "earned": 15
+    },
+    "reportingTo": "EMP006",
+    "teamMembers": ["EMP012", "EMP013"]
+  },
+  {
+    "employeeId": "EMP003",
+    "personalInfo": {
+      "name": "Amit Patel",
+      "email": "amit.patel@company.com",
+      "phone": "+91-9876543212",
+      "address": "789 SG Highway, Ahmedabad, Gujarat 380015",
+      "dateOfBirth": "1988-12-03",
+      "aadharNumber": "3456-7890-1234",
+      "panNumber": "CDEFG3456H"
+    },
+    "designation": "DevOps Engineer",
+    "department": "Technology",
+    "joiningDate": "2020-07-20",
+    "salary": 78000,
+    "bankDetails": {
+      "accountNumber": "3456789012",
+      "ifscCode": "SBIN0003456",
+      "bankName": "State Bank of India"
+    },
+    "documents": {
+      "resume": "resume_amit.pdf",
+      "offerLetter": "offer_amit.pdf",
+      "idProof": "aadhar_amit.pdf"
+    },
+    "leaveBalance": {
+      "casual": 12,
+      "sick": 10,
+      "earned": 20
+    },
+    "reportingTo": "EMP005",
+    "teamMembers": []
+  },
+  {
+    "employeeId": "EMP004",
+    "personalInfo": {
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@company.com",
+      "phone": "+91-9876543213",
+      "address": "321 Banjara Hills, Hyderabad, Telangana 500034",
+      "dateOfBirth": "1994-04-18",
+      "aadharNumber": "4567-8901-2345",
+      "panNumber": "DEFGH4567I"
+    },
+    "designation": "UI/UX Designer",
+    "department": "Design",
+    "joiningDate": "2022-09-05",
+    "salary": 65000,
+    "bankDetails": {
+      "accountNumber": "4567890123",
+      "ifscCode": "AXIS0004567",
+      "bankName": "Axis Bank"
+    },
+    "documents": {
+      "resume": "resume_sneha.pdf",
+      "offerLetter": "offer_sneha.pdf",
+      "idProof": "aadhar_sneha.pdf"
+    },
+    "leaveBalance": {
+      "casual": 11,
+      "sick": 12,
+      "earned": 5
+    },
+    "reportingTo": "EMP007",
+    "teamMembers": []
+  },
+  {
+    "employeeId": "EMP005",
+    "personalInfo": {
+      "name": "Vikram Singh",
+      "email": "vikram.singh@company.com",
+      "phone": "+91-9876543214",
+      "address": "654 CP, New Delhi, Delhi 110001",
+      "dateOfBirth": "1985-11-30",
+      "aadharNumber": "5678-9012-3456",
+      "panNumber": "EFGHI5678J"
+    },
+    "designation": "Technical Lead",
+    "department": "Technology",
+    "joiningDate": "2019-01-12",
+    "salary": 120000,
+    "bankDetails": {
+      "accountNumber": "5678901234",
+      "ifscCode": "HDFC0005678",
+      "bankName": "HDFC Bank"
+    },
+    "documents": {
+      "resume": "resume_vikram.pdf",
+      "offerLetter": "offer_vikram.pdf",
+      "idProof": "aadhar_vikram.pdf"
+    },
+    "leaveBalance": {
+      "casual": 6,
+      "sick": 12,
+      "earned": 25
+    },
+    "reportingTo": "EMP008",
+    "teamMembers": ["EMP001", "EMP003", "EMP009"]
+  },
+  {
+    "employeeId": "EMP006",
+    "personalInfo": {
+      "name": "Anita Desai",
+      "email": "anita.desai@company.com",
+      "phone": "+91-9876543215",
+      "address": "987 Marine Drive, Mumbai, Maharashtra 400020",
+      "dateOfBirth": "1987-07-25",
+      "aadharNumber": "6789-0123-4567",
+      "panNumber": "FGHIJ6789K"
+    },
+    "designation": "Product Director",
+    "department": "Product",
+    "joiningDate": "2018-05-18",
+    "salary": 150000,
+    "bankDetails": {
+      "accountNumber": "6789012345",
+      "ifscCode": "ICIC0006789",
+      "bankName": "ICICI Bank"
+    },
+    "documents": {
+      "resume": "resume_anita.pdf",
+      "offerLetter": "offer_anita.pdf",
+      "idProof": "aadhar_anita.pdf"
+    },
+    "leaveBalance": {
+      "casual": 4,
+      "sick": 8,
+      "earned": 22
+    },
+    "reportingTo": "EMP008",
+    "teamMembers": ["EMP002", "EMP014"]
+  },
+  {
+    "employeeId": "EMP007",
+    "personalInfo": {
+      "name": "Rahul Mehta",
+      "email": "rahul.mehta@company.com",
+      "phone": "+91-9876543216",
+      "address": "147 Park Street, Kolkata, West Bengal 700016",
+      "dateOfBirth": "1989-02-14",
+      "aadharNumber": "7890-1234-5678",
+      "panNumber": "GHIJK7890L"
+    },
+    "designation": "Design Lead",
+    "department": "Design",
+    "joiningDate": "2020-11-08",
+    "salary": 85000,
+    "bankDetails": {
+      "accountNumber": "7890123456",
+      "ifscCode": "SBIN0007890",
+      "bankName": "State Bank of India"
+    },
+    "documents": {
+      "resume": "resume_rahul.pdf",
+      "offerLetter": "offer_rahul.pdf",
+      "idProof": "aadhar_rahul.pdf"
+    },
+    "leaveBalance": {
+      "casual": 9,
+      "sick": 11,
+      "earned": 16
+    },
+    "reportingTo": "EMP008",
+    "teamMembers": ["EMP004", "EMP015"]
+  },
+  {
+    "employeeId": "EMP008",
+    "personalInfo": {
+      "name": "Sunita Gupta",
+      "email": "sunita.gupta@company.com",
+      "phone": "+91-9876543217",
+      "address": "258 Anna Nagar, Chennai, Tamil Nadu 600040",
+      "dateOfBirth": "1982-09-12",
+      "aadharNumber": "8901-2345-6789",
+      "panNumber": "HIJKL8901M"
+    },
+    "designation": "VP Engineering",
+    "department": "Technology",
+    "joiningDate": "2017-03-22",
+    "salary": 220000,
+    "bankDetails": {
+      "accountNumber": "8901234567",
+      "ifscCode": "AXIS0008901",
+      "bankName": "Axis Bank"
+    },
+    "documents": {
+      "resume": "resume_sunita.pdf",
+      "offerLetter": "offer_sunita.pdf",
+      "idProof": "aadhar_sunita.pdf"
+    },
+    "leaveBalance": {
+      "casual": 2,
+      "sick": 6,
+      "earned": 28
+    },
+    "reportingTo": null,
+    "teamMembers": ["EMP005", "EMP006", "EMP007"]
+  },
+  {
+    "employeeId": "EMP009",
+    "personalInfo": {
+      "name": "Kiran Joshi",
+      "email": "kiran.joshi@company.com",
+      "phone": "+91-9876543218",
+      "address": "369 FC Road, Pune, Maharashtra 411005",
+      "dateOfBirth": "1993-06-08",
+      "aadharNumber": "9012-3456-7890",
+      "panNumber": "IJKLM9012N"
+    },
+    "designation": "Software Engineer",
+    "department": "Technology",
+    "joiningDate": "2023-02-15",
+    "salary": 72000,
+    "bankDetails": {
+      "accountNumber": "9012345678",
+      "ifscCode": "HDFC0009012",
+      "bankName": "HDFC Bank"
+    },
+    "documents": {
+      "resume": "resume_kiran.pdf",
+      "offerLetter": "offer_kiran.pdf",
+      "idProof": "aadhar_kiran.pdf"
+    },
+    "leaveBalance": {
+      "casual": 12,
+      "sick": 12,
+      "earned": 2
+    },
+    "reportingTo": "EMP005",
+    "teamMembers": []
+  },
+  {
+    "employeeId": "EMP010",
+    "personalInfo": {
+      "name": "Deepak Agarwal",
+      "email": "deepak.agarwal@company.com",
+      "phone": "+91-9876543219",
+      "address": "741 Residency Road, Bangalore, Karnataka 560025",
+      "dateOfBirth": "1991-10-20",
+      "aadharNumber": "0123-4567-8901",
+      "panNumber": "JKLMN0123O"
+    },
+    "designation": "Junior Software Engineer",
+    "department": "Technology",
+    "joiningDate": "2023-06-01",
+    "salary": 55000,
+    "bankDetails": {
+      "accountNumber": "0123456789",
+      "ifscCode": "ICIC0000123",
+      "bankName": "ICICI Bank"
+    },
+    "documents": {
+      "resume": "resume_deepak.pdf",
+      "offerLetter": "offer_deepak.pdf",
+      "idProof": "aadhar_deepak.pdf"
+    },
+    "leaveBalance": {
+      "casual": 10,
+      "sick": 12,
+      "earned": 1
+    },
+    "reportingTo": "EMP001",
+    "teamMembers": []
+  },
+  {
+    "employeeId": "EMP011",
+    "personalInfo": {
+      "name": "Meera Nair",
+      "email": "meera.nair@company.com",
+      "phone": "+91-9876543220",
+      "address": "852 MG Road, Kochi, Kerala 682035",
+      "dateOfBirth": "1995-01-16",
+      "aadharNumber": "1234-5678-9012",
+      "panNumber": "KLMNO1234P"
+    },
+    "designation": "QA Engineer",
+    "department": "Technology",
+    "joiningDate": "2022-12-10",
+    "salary": 58000,
+    "bankDetails": {
+      "accountNumber": "1234567890",
+      "ifscCode": "SBIN0001234",
+      "bankName": "State Bank of India"
+    },
+    "documents": {
+      "resume": "resume_meera.pdf",
+      "offerLetter": "offer_meera.pdf",
+      "idProof": "aadhar_meera.pdf"
+    },
+    "leaveBalance": {
+      "casual": 7,
+      "sick": 12,
+      "earned": 8
+    },
+    "reportingTo": "EMP001",
+    "teamMembers": []
+  },
+  {
+    "employeeId": "EMP012",
+    "personalInfo": {
+      "name": "Arjun Kapoor",
+      "email": "arjun.kapoor@company.com",
+      "phone": "+91-9876543221",
+      "address": "963 Sector 22, Chandigarh 160022",
+      "dateOfBirth": "1990-03-28",
+      "aadharNumber": "2345-6789-0123",
+      "panNumber": "LMNOP2345Q"
+    },
+    "designation": "Product Analyst",
+    "department": "Product",
+    "joiningDate": "2021-08-14",
+    "salary": 68000,
+    "bankDetails": {
+      "accountNumber": "2345678901",
+      "ifscCode": "AXIS0002345",
+      "bankName": "Axis Bank"
+    },
+    "documents": {
+      "resume": "resume_arjun.pdf",
+      "offerLetter": "offer_arjun.pdf",
+      "idProof": "aadhar_arjun.pdf"
+    },
+    "leaveBalance": {
+      "casual": 5,
+      "sick": 9,
+      "earned": 14
+    },
+    "reportingTo": "EMP002",
+    "teamMembers": []
+  },
+  {
+    "employeeId": "EMP013",
+    "personalInfo": {
+      "name": "Kavita Rao",
+      "email": "kavita.rao@company.com",
+      "phone": "+91-9876543222",
+      "address": "159 Jubilee Hills, Hyderabad, Telangana 500033",
+      "dateOfBirth": "1992-12-05",
+      "aadharNumber": "3456-7890-1234",
+      "panNumber": "MNOPQ3456R"
+    },
+    "designation": "Business Analyst",
+    "department": "Product",
+    "joiningDate": "2022-04-25",
+    "salary": 75000,
+    "bankDetails": {
+      "accountNumber": "3456789012",
+      "ifscCode": "HDFC0003456",
+      "bankName": "HDFC Bank"
+    },
+    "documents": {
+      "resume": "resume_kavita.pdf",
+      "offerLetter": "offer_kavita.pdf",
+      "idProof": "aadhar_kavita.pdf"
+    },
+    "leaveBalance": {
+      "casual": 8,
+      "sick": 11,
+      "earned": 6
+    },
+    "reportingTo": "EMP002",
+    "teamMembers": []
+  },
+  {
+    "employeeId": "EMP014",
+    "personalInfo": {
+      "name": "Rohit Bansal",
+      "email": "rohit.bansal@company.com",
+      "phone": "+91-9876543223",
+      "address": "753 Connaught Place, New Delhi, Delhi 110001",
+      "dateOfBirth": "1986-08-11",
+      "aadharNumber": "4567-8901-2345",
+      "panNumber": "NOPQR4567S"
+    },
+    "designation": "Senior Product Manager",
+    "department": "Product",
+    "joiningDate": "2019-10-30",
+    "salary": 110000,
+    "bankDetails": {
+      "accountNumber": "4567890123",
+      "ifscCode": "ICIC0004567",
+      "bankName": "ICICI Bank"
+    },
+    "documents": {
+      "resume": "resume_rohit.pdf",
+      "offerLetter": "offer_rohit.pdf",
+      "idProof": "aadhar_rohit.pdf"
+    },
+    "leaveBalance": {
+      "casual": 3,
+      "sick": 7,
+      "earned": 19
+    },
+    "reportingTo": "EMP006",
+    "teamMembers": []
+  },
+  {
+    "employeeId": "EMP015",
+    "personalInfo": {
+      "name": "Pooja Iyer",
+      "email": "pooja.iyer@company.com",
+      "phone": "+91-9876543224",
+      "address": "486 T. Nagar, Chennai, Tamil Nadu 600017",
+      "dateOfBirth": "1994-07-02",
+      "aadharNumber": "5678-9012-3456",
+      "panNumber": "OPQRS5678T"
+    },
+    "designation": "Graphic Designer",
+    "department": "Design",
+    "joiningDate": "2023-01-20",
+    "salary": 48000,
+    "bankDetails": {
+      "accountNumber": "5678901234",
+      "ifscCode": "SBIN0005678",
+      "bankName": "State Bank of India"
+    },
+    "documents": {
+      "resume": "resume_pooja.pdf",
+      "offerLetter": "offer_pooja.pdf",
+      "idProof": "aadhar_pooja.pdf"
+    },
+    "leaveBalance": {
+      "casual": 11,
+      "sick": 12,
+      "earned": 3
+    },
+    "reportingTo": "EMP007",
+    "teamMembers": []
+  }
+]

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "react-toastify/dist/ReactToastify.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  
+  body {
+    @apply bg-surface-50 text-surface-900 font-sans antialiased;
+    @apply overflow-x-hidden;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .gradient-primary {
+    background: linear-gradient(135deg, #4F46E5 0%, #8B7FE6 100%);
+  }
+
+  .gradient-success {
+    background: linear-gradient(135deg, #10B981 0%, #6EE7B7 100%);
+  }
+
+  .neu-card {
+    @apply bg-white border border-surface-200 shadow-neu-light;
+  }
+
+  .interactive-card {
+    @apply transition-all duration-200 ease-in-out hover:shadow-card hover:scale-[1.02] active:scale-98;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-xl font-medium transition-all duration-200 hover:bg-primary-dark hover:shadow-card active:scale-98 disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply bg-surface-100 text-surface-800 px-6 py-3 rounded-xl font-medium transition-all duration-200 hover:bg-surface-200 hover:shadow-card active:scale-98 disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .card {
+    @apply bg-white rounded-xl border border-surface-200 shadow-soft p-6 transition-all duration-200;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-3 border border-surface-300 rounded-xl focus:ring-2 focus:ring-primary focus:border-primary transition-all duration-200 outline-none;
+  }
+
+  .metric-card {
+    @apply bg-white rounded-xl p-6 border border-surface-200 shadow-soft hover:shadow-card transition-all duration-200;
+  }
+}
+
+/* Responsive Typography */
+@media (max-width: 640px) {
+  .responsive-text-lg {
+    @apply text-base;
+  }
+  .responsive-text-xl {
+    @apply text-lg;
+  }
+  .responsive-text-2xl {
+    @apply text-xl;
+  }
+  .responsive-text-3xl {
+    @apply text-2xl;
+  }
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-success {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(34, 197, 94, 0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+.animate-pulse-success {
+  animation: pulse-success 2s infinite;
+}

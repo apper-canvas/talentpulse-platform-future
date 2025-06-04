@@ -1,0 +1,266 @@
+[
+  {
+    "payrollId": "PAY001",
+    "employeeId": "EMP001",
+    "month": "March 2024",
+    "basicSalary": 85000,
+    "allowances": {
+      "hra": 34000,
+      "specialAllowance": 25500
+    },
+    "deductions": {
+      "providentFund": 10200,
+      "professionalTax": 200,
+      "tds": 8500
+    },
+    "taxCalculations": {
+      "tds": 8500,
+      "pf": 10200,
+      "professionalTax": 200
+    },
+    "netPay": 125600,
+    "status": "processed"
+  },
+  {
+    "payrollId": "PAY002",
+    "employeeId": "EMP002",
+    "month": "March 2024",
+    "basicSalary": 95000,
+    "allowances": {
+      "hra": 38000,
+      "specialAllowance": 28500
+    },
+    "deductions": {
+      "providentFund": 11400,
+      "professionalTax": 200,
+      "tds": 10200
+    },
+    "taxCalculations": {
+      "tds": 10200,
+      "pf": 11400,
+      "professionalTax": 200
+    },
+    "netPay": 139700,
+    "status": "processed"
+  },
+  {
+    "payrollId": "PAY003",
+    "employeeId": "EMP003",
+    "month": "March 2024",
+    "basicSalary": 78000,
+    "allowances": {
+      "hra": 31200,
+      "specialAllowance": 23400
+    },
+    "deductions": {
+      "providentFund": 9360,
+      "professionalTax": 200,
+      "tds": 6800
+    },
+    "taxCalculations": {
+      "tds": 6800,
+      "pf": 9360,
+      "professionalTax": 200
+    },
+    "netPay": 116240,
+    "status": "processed"
+  },
+  {
+    "payrollId": "PAY004",
+    "employeeId": "EMP004",
+    "month": "March 2024",
+    "basicSalary": 65000,
+    "allowances": {
+      "hra": 26000,
+      "specialAllowance": 19500
+    },
+    "deductions": {
+      "providentFund": 7800,
+      "professionalTax": 200,
+      "tds": 4500
+    },
+    "taxCalculations": {
+      "tds": 4500,
+      "pf": 7800,
+      "professionalTax": 200
+    },
+    "netPay": 98000,
+    "status": "processed"
+  },
+  {
+    "payrollId": "PAY005",
+    "employeeId": "EMP005",
+    "month": "March 2024",
+    "basicSalary": 120000,
+    "allowances": {
+      "hra": 48000,
+      "specialAllowance": 36000
+    },
+    "deductions": {
+      "providentFund": 14400,
+      "professionalTax": 200,
+      "tds": 15600
+    },
+    "taxCalculations": {
+      "tds": 15600,
+      "pf": 14400,
+      "professionalTax": 200
+    },
+    "netPay": 173800,
+    "status": "processed"
+  },
+  {
+    "payrollId": "PAY006",
+    "employeeId": "EMP006",
+    "month": "February 2024",
+    "basicSalary": 150000,
+    "allowances": {
+      "hra": 60000,
+      "specialAllowance": 45000
+    },
+    "deductions": {
+      "providentFund": 1800,
+      "professionalTax": 200,
+      "tds": 22500
+    },
+    "taxCalculations": {
+      "tds": 22500,
+      "pf": 1800,
+      "professionalTax": 200
+    },
+    "netPay": 230500,
+    "status": "processed"
+  },
+  {
+    "payrollId": "PAY007",
+    "employeeId": "EMP007",
+    "month": "February 2024",
+    "basicSalary": 85000,
+    "allowances": {
+      "hra": 34000,
+      "specialAllowance": 25500
+    },
+    "deductions": {
+      "providentFund": 10200,
+      "professionalTax": 200,
+      "tds": 8500
+    },
+    "taxCalculations": {
+      "tds": 8500,
+      "pf": 10200,
+      "professionalTax": 200
+    },
+    "netPay": 125600,
+    "status": "processed"
+  },
+  {
+    "payrollId": "PAY008",
+    "employeeId": "EMP001",
+    "month": "February 2024",
+    "basicSalary": 85000,
+    "allowances": {
+      "hra": 34000,
+      "specialAllowance": 25500
+    },
+    "deductions": {
+      "providentFund": 10200,
+      "professionalTax": 200,
+      "tds": 8500
+    },
+    "taxCalculations": {
+      "tds": 8500,
+      "pf": 10200,
+      "professionalTax": 200
+    },
+    "netPay": 125600,
+    "status": "processed"
+  },
+  {
+    "payrollId": "PAY009",
+    "employeeId": "EMP009",
+    "month": "March 2024",
+    "basicSalary": 72000,
+    "allowances": {
+      "hra": 28800,
+      "specialAllowance": 21600
+    },
+    "deductions": {
+      "providentFund": 8640,
+      "professionalTax": 200,
+      "tds": 5200
+    },
+    "taxCalculations": {
+      "tds": 5200,
+      "pf": 8640,
+      "professionalTax": 200
+    },
+    "netPay": 108360,
+    "status": "processed"
+  },
+  {
+    "payrollId": "PAY010",
+    "employeeId": "EMP010",
+    "month": "March 2024",
+    "basicSalary": 55000,
+    "allowances": {
+      "hra": 22000,
+      "specialAllowance": 16500
+    },
+    "deductions": {
+      "providentFund": 6600,
+      "professionalTax": 200,
+      "tds": 2800
+    },
+    "taxCalculations": {
+      "tds": 2800,
+      "pf": 6600,
+      "professionalTax": 200
+    },
+    "netPay": 83900,
+    "status": "processed"
+  },
+  {
+    "payrollId": "PAY011",
+    "employeeId": "EMP008",
+    "month": "March 2024",
+    "basicSalary": 220000,
+    "allowances": {
+      "hra": 88000,
+      "specialAllowance": 66000
+    },
+    "deductions": {
+      "providentFund": 1800,
+      "professionalTax": 200,
+      "tds": 45000
+    },
+    "taxCalculations": {
+      "tds": 45000,
+      "pf": 1800,
+      "professionalTax": 200
+    },
+    "netPay": 327000,
+    "status": "processed"
+  },
+  {
+    "payrollId": "PAY012",
+    "employeeId": "EMP011",
+    "month": "March 2024",
+    "basicSalary": 58000,
+    "allowances": {
+      "hra": 23200,
+      "specialAllowance": 17400
+    },
+    "deductions": {
+      "providentFund": 6960,
+      "professionalTax": 200,
+      "tds": 3500
+    },
+    "taxCalculations": {
+      "tds": 3500,
+      "pf": 6960,
+      "professionalTax": 200
+    },
+    "netPay": 87940,
+    "status": "processed"
+  }
+]
